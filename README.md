@@ -84,11 +84,8 @@ docker update --restart=always wechat-self
     chmod +x install-wechat.sh
     ./install-wechat.sh
 ```
-#### 最新版本（点击下载）
-#### [2024-08-26](https://pan.xunlei.com/s/VO5CQsA-vW06pEu5sXXdis9IA1?pwd=xh9g#)
-#### [2024-08-18](https://pan.xunlei.com/s/VO4ZDBB05PgyoT6OPXd4ZT14A1?pwd=9n7p#) 
-#### [2024-06-28](https://pan.xunlei.com/s/VO0TwbsKVne-YWfbj2MsQeTVA1?pwd=9tpj#) 
 
 #### 注意事项
 
 由于容器和linux系统端口共用，建议linux系统不要安装和运行其他服务导致端口冲突
+本地化ipad登录提示“在新设备完成验证以继续登录”，可传deviceType="car" 重新取码，本地化不支持mac取码
